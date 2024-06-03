@@ -1,64 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Industria Penitenciaria</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="icon" href="static/icon_ip.png">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<head>
+  <meta charset="utf-8">
+  <title>Industria Penitenciaria</title>
+  <meta name="viewport" content="width=device-width">
+
+  <meta property="og:image" content="https://www.undiamasundiamenos.mx/static/obra_impresa.jpg">
+  <meta property="og:image:width" content="389px">
+  <meta property="og:image:height" content="542px">
+  <meta property="keywords" content="...">
+  <meta name="description" content="..." />
+
+  <link rel="icon" href="static/ip.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-<header>
-  <!-- barra de navegación -->
-  <nav style="background-color: #0a5cb8;" class="navbar navbar-expand-lg navbar fixed-top">
-    <div class="container-fluid">
-      <a class="logo" href="index.html">
-        <img class="logo" style="margin-right: auto; margin-left: auto; width: 80px; height: 70px;" src="static/ip.png" alt="logo">
-      </a>
-      <button style="background-color: #e3f2fd;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end text-bg-secondary" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  <header>
+    <!-- barra de navegación -->
+    <nav style="background-color: #0a5cb8;" class="navbar navbar-expand-lg navbar fixed-top">
+      <div class="container-fluid">
+        <a class="logo" href="index.html">
+          <img class="logo" style="margin-right: auto; margin-left: auto; width: 80px; height: 70px;"
+            src="static/ip.png" alt="logo">
+        </a>
+        <button style="background-color: #e3f2fd;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-primary" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"><b style="color: white">Industria penitenciaria</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=".#quienes_somos"><b style="color: white">Quiénes somos</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nuestro_legado.html"><b style="color: white">Nuestro legado</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nuestro_trabajo.html"><b style="color: white">Nuestro trabajo</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="instituciones.html"><b style="color: white">Instituciones y sociedades</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=".#alianzas"><b style="color: white">Alianzas estratégicas</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=".#recursos_materiales"><b style="color: white">Recursos matriales</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recursos_humanos.html"><b style="color: white">Recursos humanos</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=".#fuentes"><b style="color: white">Fuentes de financiamiento</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=".#objetivos"><b style="color: white">Objetivos</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=".#metas"><b style="color: white">Metas</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=".#contacto"><b style="color: white">Contáctenos</b></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"><b style="color: white">Industria penitenciaria</b></a>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link" href="acercadeudmudm.html"><b style="color: white">Item 2</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sobre_el_autor.html"><b style="color: white">Item 3</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><b style="color: white">Item 4</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><b style="color: white">Item 5</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><b style="color: white">Item 6 </b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><b style="color: white">Item 7</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><b style="color: white">Item 8</b></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 <body>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
