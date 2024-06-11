@@ -8,13 +8,13 @@ html {
     .offcanvas {
         right: 0;
         left: unset;
-        margin-top: 10%;
+        margin-top: auto;
         height: 100vh
     }
 
     .offcanvas-body {
         text-align: right;
-        margin-top: 10%;
+        margin-top: auto;
         height: 100vh
     }
 }
