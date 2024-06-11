@@ -3,6 +3,19 @@ html {
   width: 100%;
 }
 
+/* Media query para pantallas de celular */
+@media (max-width: 767px) {
+    .offcanvas {
+        right: 0;
+        left: unset;
+    }
+
+    .offcanvas-body {
+        text-align: right;
+    }
+}
+
+
 body {
   background-color: black;
   
